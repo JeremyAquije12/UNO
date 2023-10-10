@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASTELERIA LUZ DE LUNA</title>
+    <link rel="shortcut icon" href="./images/favicon1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="Aprende CSS desde cero">
+    <meta name="description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alexcgdesign.github.io">
+    <meta property="og:title" content="Aprende CSS desde cero">
+    <meta property="og:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="og:image" content="https://alexcgdesign.github.io/images/css.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.jordanalex.com/">
+    <meta property="twitter:title" content="Aprende CSS desde cero">
+    <meta property="twitter:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="twitter:image" content="https://alexcgdesign.github.io/images/css.jpg">
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Luz de Luna</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Blog</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Hacemos tu vida más dulce</h1>
+            <p class="hero__paragraph">Pasteleria "Luz de Luna" busca acercarse al cliente para ofrecerle el mejor servicio al cliente y los mejores postres.</p>
+            <a href="#" class="cta">Hacer pedido</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">¿Qué opciones brindamos?</h2>
+            <p class="about__paragraph">Todo lo necesario para satisfacer su paladar, productos tradidionales y light</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/shapes.svg" class="about__icon">
+                    <h3 class="about__title">TRADICIONAL</h3>
+                    <p class="about__paragrah">Productos elaborados de una manera artesanal y con el sabor de siempre </p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/paint.svg" class="about__icon">
+                    <h3 class="about__title">LIGHT</h3>
+                    <p class="about__paragrah">Productos con un contenido más bajo de lo habitual de azúcar, grasa y calorías</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">Consumir productos de la Pastelería "Luz de Luna"</h2>
+                    <p class="knowledge__paragraph"> Es una experiencia verdaderamente deliciosa y gratificante. La combinación de sabores dulces, texturas suaves y aromas irresistibles es capaz de despertar nuestros sentidos y hacernos sentir una sensación de felicidad única. Cada bocado de un postre bien elaborado es como un pequeño regalo para nuestro paladar, un placer que nos permite escapar momentáneamente de las preocupaciones diarias y sumergirnos en un mundo de sabores exquisitos.</p>
+                    <a href="#" class="cta">Hacer pedido</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/pasteleria.jpg" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">Puedes elegir paquetes personalizados</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">NORMAL</p>
+                    <h3 class="price__price">S/ 50</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Pastel</p>
+                        <p class="price__features">Flores</p>
+                        <p class="price__features">Delivery al 50%</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Elegir</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">ESPECIAL</p>
+                    <h3 class="price__price">S/ 80</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Pastel</p>
+                        <p class="price__features">Flores</p>
+                        <p class="price__features">Docena de galletas</p>
+                        <p class="price__features">Delivery GRATIS</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Elegir</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Alexandra Huertas,<span class="testimony__course">Cliente
+                                habitual</span></h2>
+                        <p class="testimony__review">Los productos que compro en Luz de Luna son los más deliciosos que eh probado, cada cierto tiempo tiempo me doy un gustito con mi pareja, 100% recomendado.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/alexa.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Luis Perez, <span class="testimony__course">Nuevo cliente</span></h2>
+                        <p class="testimony__review">Confieso que no era fan de los postres, hasta que me recomendaron esta Pastelería, me sorprendió el trato al cliente y lo delicioso que son sus productos.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Luis.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Karen Arteaga, <span class="testimony__course">Cliente habitual</span></h2>
+                        <p class="testimony__review">Me converti en la clienta numero uno desde que probé su variedad de productos light, asi no tengo temor de perder la figura por darme un gustito.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Karen.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">Son preguntas que nuestros nuevos clientes desean saber.</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Los precios son altos?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">El precio de la mayoria de nuestros productos están al alcance del bolsillo del todos, tenemos algunos productos que por cuestión de ingredientes están unos soles más</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Donde se encuentran ubicados?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">La Pastelería "Luz de Luna" se encuentra ubicada en la calle Callao N° 312 a dos cuadras de la plaza de Armas de la ciudad de Ica.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Los productos son preparados por personal capacitado?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Los productos que vendemos son elaborados por Chef's Pasteleros que tienen años trabajando para ofrecer al público los mejor de la ciudad de Ica.</p>
+                    </div>
+                </article>
+            </section>
+
+            
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Pastelería "Luz de Luna"</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Contactanos</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Pagina Web &copy; Luz de Luna</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
